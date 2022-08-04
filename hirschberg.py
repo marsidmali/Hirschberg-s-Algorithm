@@ -109,7 +109,7 @@ def Hirschberg(A,B):
     return WW, ZZ
 
 
-def print_alignments()
+def print_alignments():
     WW, ZZ = Hirschberg(A, B)
     a = []
     for i in zip(WW, ZZ):
